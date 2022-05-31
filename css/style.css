@@ -7,6 +7,27 @@
 #cavalo{
     position: absolute;
     left: 70px;
+    top: 7px;
+    animation: mov-cavalo 12s infinite;
+}
+
+@keyframes mov-cavalo{
+    0%{top:7px; left:70px;}
+    9.55%{top:70px; left:70px;}
+    10%{top:70px; left:70px;}
+    15%{top:140px; left:70px;}
+    20%{top:140px; left:140px;}
+    25%{top:200px; left:140px;}
+    30%{top:250px; left:140px;}
+    35%{top:250px; left:200px;}
+    40%{top:320px; left:200px;}
+    45%{top:375px; left:200px;}
+    50%{top:375px; left:255px;}
+    55%{top:450px; left:255px;}
+    60%{top:450px; left:320px;}
+    65%{top:450px; left:385px;} 
+    
+   
 }
 
 
